@@ -48,6 +48,10 @@ The objective is to determine:
 - ~37% of bookings were cancelled.
 - City Hotel (42%) had higher cancellations than Resort Hotel (28%).
 
+<p align="center">
+  <img src="analysis/cancellation-rate-analysis.png" alt="cancellation-rate-analysis" width="1000"/>
+</p>
+
 ---
 
 ### 2️⃣ Lead Time Analysis (Most Important Finding 🔥)
@@ -60,6 +64,14 @@ Cancellation rate increases significantly with lead time:
 | 19–71 days | ~36% |
 | 71–162 days | ~43% |
 | 162+ days | ~56% |
+
+<p align="center">
+  <img src="analysis/distribution-of-lead-time-by-cancellation-status.png" alt="distribution-of-lead-time-by-cancellation-status" width="1000"/>
+</p>
+
+<p align="center">
+  <img src="analysis/cancellation-rate-by-lead-time-bucket.png" alt="cancellation-rate-by-lead-time-bucket" width="1000"/>
+</p>
 
 **Conclusion:**  
 Bookings made far in advance are much more likely to cancel.
@@ -80,6 +92,10 @@ Cancellation rate by segment:
 | Direct | ~15% |
 | Corporate | ~19% |
 
+<p align="center">
+  <img src="analysis/market-segment-analysis.png" alt="market-segment-analysis" width="1000"/>
+</p>
+
 **Conclusion:**  
 Group bookings are extremely high risk.  
 Direct and Corporate bookings are the most stable.
@@ -91,6 +107,10 @@ Direct and Corporate bookings are the most stable.
 - Cancelled bookings tend to have higher Average Daily Rate (ADR).
 - Higher-priced bookings show greater cancellation probability.
 
+<p align="center">
+  <img src="analysis/average-daily-rate.png" alt="average-daily-rate" width="1000"/>
+</p>
+
 **Conclusion:**  
 Price sensitivity influences cancellation behavior.
 
@@ -100,7 +120,15 @@ Price sensitivity influences cancellation behavior.
 
 - Peak bookings: June–August  
 - Higher ADR during May–June  
-- January shows relatively high cancellation risk  
+- January shows relatively high cancellation risk
+
+<p align="center">
+  <img src="analysis/adr-per-month.png" alt="adr-per-month" width="1000"/>
+</p> 
+
+<p align="center">
+  <img src="analysis/reservation-status-per-month.png" alt="reservation-status-per-month" width="1000"/>
+</p> 
 
 Seasonality impacts demand but is not as strong as lead time or market segment.
 
@@ -142,4 +170,13 @@ Seasonality impacts demand but is not as strong as lead time or market segment.
 
 ---
 
+## 📬 Connect With Me
 
+If you would like to discuss data projects or opportunities, feel free to connect.
+
+LinkedIn: www.linkedin.com/in/puja-kumari-634475373 
+Email: pujasharma2520@gmail.com
+
+---
+
+⭐ If you found this repository useful, feel free to star it.
